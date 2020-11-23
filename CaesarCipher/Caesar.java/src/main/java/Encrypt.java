@@ -11,7 +11,7 @@ public class Encrypt {
         char alphabet;
         for(int i=0; i < plaintext.length();i++)
         {
-            // Shift one character at a time
+            /* Shift one character at a time */
             alphabet = plaintext.charAt(i);
 
             // if alphabet lies between a and z
